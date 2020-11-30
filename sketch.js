@@ -33,8 +33,8 @@ function setup() {
 	
 	block = Bodies.rectangle(370,630,200,20,{isStatic:true});
 	pos   = block.position;
-	width3 = block3.width;
-	height3= block3.height;
+	width3 = block.width;
+	height3= block.height;
 
 	World.add(world,block);		
 
